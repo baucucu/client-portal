@@ -1,0 +1,26 @@
+{
+  "cwd": "/Users/Alex/Documents/JSProjects/AnimasjonLandslaget/client-portal",
+  "type": [
+    "web"
+  ],
+  "name": "Client Portal",
+  "framework": "react",
+  "template": "single-view",
+  "bundler": "webpack",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#341c65",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false,
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  }
+}
