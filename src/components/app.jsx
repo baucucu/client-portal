@@ -71,11 +71,34 @@ const MyApp = () => {
 
 
         {/* Right panel with reveal effect*/}
-        <Panel right reveal themeDark>
+        <Panel right nested>
           <View>
             <Page>
-              <Navbar title="Right Panel"/>
-              <Block>Right panel content goes here</Block>
+              <Navbar title="Pages"/>
+              {/* <Block>Right panel content goes here</Block> */}
+              <List>
+                <ListItem>
+                  <Link>Startsida</Link>
+                </ListItem>
+                <ListItem>
+                  <Link>1 Spørreskjema</Link>
+                </ListItem>
+                <ListItem>
+                  <Link>2 Manuskript</Link>
+                </ListItem>
+                <ListItem>
+                  <Link>3 Voiceover</Link>
+                </ListItem>
+                <ListItem>
+                  <Link>4 Illustrasjoner</Link>
+                </ListItem>
+                <ListItem>
+                  <Link>5 Animasjon</Link>
+                </ListItem>
+                <ListItem>
+                  <Link>Last ned animasjon</Link>
+                </ListItem>
+              </List>
             </Page>
           </View>
         </Panel>
